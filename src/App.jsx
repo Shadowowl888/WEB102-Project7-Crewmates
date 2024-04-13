@@ -1,6 +1,4 @@
 import { Link, useRoutes } from "react-router-dom";
-import { useState, useEffect } from "react";
-import { supabase } from "../client";
 import './App.css'
 import Home from "./pages/Home";
 import ReadCards from "./pages/ReadCards";
