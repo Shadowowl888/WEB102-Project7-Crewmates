@@ -1,0 +1,176 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Amatic SC;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+/* App */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.content {
+  margin-top: 10%;
+}
+
+.header-button {
+  margin: 10px;
+}
+
+/* Home CSS */
+.home-container {
+  text-align: center;
+}
+
+.amongus {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.amongus-ufo {
+  display: block;
+  margin: 25px auto;
+  width: 300px;
+}
+
+/* CreateCard CSS */
+.create-card {
+  margin-top: 10%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.amongus-img {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.create-button {
+  background-color: #007bff;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+}
+
+/* EditCard CSS */
+.edit-card {
+  margin-top: 10%;
+}
+
+.update-button,
+.edit-button {
+  margin-right: 10px;
+  background-color: #28a745;
+}
+
+.update-button:hover,
+.edit-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  margin-left: 10px;
+  background-color: #c9433a;
+}
+
+.delete-button:hover {
+  background-color: #aa372f;
+}
+
+/* ReadCards CSS */
+.read-cards-title {
+  width: 100%;
+  text-align: center;
+}
+
+.read-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.read-cards-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1300px;
+  width: 100%;
+}
+
+/* Card CSS */
+.card {
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(187, 187, 187, 0.497);
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  margin-bottom: 25px;
+  width: 370px;
+  margin-right: 20px;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+.link{
+  text-align: center;
+  color:white;
+  border:2px solid rgb(206, 206, 206);
+  padding:6px;
+  border-radius: 6px;
+  background-color:rgb(71, 71, 71);
+}
+
+.container{
+  align-items: center;
+  padding-bottom:5px;
+}
+
+.card-img{
+  width: 170px;
+  height: 170px;
+}
